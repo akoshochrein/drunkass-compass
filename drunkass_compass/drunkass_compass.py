@@ -24,7 +24,7 @@ def main():
     )
 
     for place in places['results']:
-        print place['name']
+        print place['name'].encode('utf8')
 
 
 if __name__ == '__main__':
