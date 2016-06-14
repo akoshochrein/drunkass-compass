@@ -10,4 +10,11 @@ A compass for the desperate, when they just cannot get away from the terminal to
 ```$ drunkass-compass | shuf | head -1```
 
 ## Installation
-```pip install drunkass-compass```
+Add your Google Maps API key to your compass as such:
+```
+$ python -c 'import keyring; keyring.set_password("drunkass-compass-api-key", "drunkass-compass-api-key", "MY_API_KEY")'
+```
+Install the application:
+```
+$ pip install drunkass-compass
+```
